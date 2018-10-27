@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{32A77300-8AB9-DA8E-A12B-733C905AFFE7}</ProjectGuid>
+    <ProjectGuid>{817DC0AF-C774-8D7D-4F4E-273F6B31A2D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\player.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
@@ -78,10 +79,10 @@
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/alexpadillajr/Desktop/HackbotStudio/Games/Unity/Animation Practive/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/alexpadillajr/Desktop/HackbotStudio/Games/Unity/Unity Animation/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/alexpadillajr/Desktop/HackbotStudio/Games/Unity/Animation Practive/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/alexpadillajr/Desktop/HackbotStudio/Games/Unity/Unity Animation/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
