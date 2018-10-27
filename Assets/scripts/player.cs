@@ -13,6 +13,15 @@ public class player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        float inputH = Input.GetAxis("Horizontal");
+        float inputV = Input.GetAxis("Vertical");
+
+        anim.SetFloat("inputH", inputH);
+        anim.SetFloat("inputV", inputV);
+
+
+
+
         if(Input.GetKeyDown("1")) {
             anim.Play("WAIT01", 0, 0f);
         }
@@ -28,5 +37,16 @@ public class player : MonoBehaviour {
         {
             anim.Play("WAIT04", 0, 0f);
         }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            int random = Random.Range(0, 2);
+            if(random == 0)
+                anim.Play("DAMAGED00", 0, 0f);
+            else if (random == 1)
+                anim.Play("DAMAGED01", 0, 0f);
+
+        }
+
 	}
 }
