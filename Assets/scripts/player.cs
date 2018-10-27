@@ -19,7 +19,8 @@ public class player : MonoBehaviour {
         anim.SetFloat("inputH", inputH);
         anim.SetFloat("inputV", inputV);
 
-
+        bool jumping = Input.GetKey(KeyCode.Space);
+        anim.SetBool("jumping", jumping);
 
 
         if(Input.GetKeyDown("1")) {
